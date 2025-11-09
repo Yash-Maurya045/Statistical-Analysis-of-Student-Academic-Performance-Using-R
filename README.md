@@ -79,3 +79,42 @@ Future work may include predictive modeling, classification of performance level
 
 ## 📁 Repository Structure
 
+📦 Student-Performance-EDA-R
+┣ 📂 plots/ # All 13 generated plots
+┣ 📂 tables/ # (Optional) generated summary tables
+┣ 📄 eda.R # Main EDA script
+┣ 📄 README.md # Project documentation
+┣ 📄 StudentsPerformance.csv # Dataset
+┗ 📄 LICENSE (optional)
+
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone this repository:
+```bash
+git clone https://github.com/your-username/student-performance-eda-r.git
+
+
+Open R or RStudio.
+
+Install required packages:
+
+install.packages(c("readr","dplyr","janitor","ggplot2","corrplot","stringr","forcats"))
+
+
+Run the main script:
+
+source("eda.R")
+
+
+All plots will be saved in the plots/ folder.
+
+📬 Contact
+
+If you want to collaborate, improve the project, or report an issue — feel free to open a pull request or contact me via GitHub.
+
+⭐ If you found this helpful
+
+Consider starring the repository to support the project!
